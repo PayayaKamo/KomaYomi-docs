@@ -605,9 +605,19 @@ export default defineConfig({
   // The contributor README is not part of the public documentation.
   srcExclude: ['README.md'],
   sitemap: {
+    // The sitemap library only keeps the origin from `hostname`, so the Pages
+    // subpath is added to every URL in `transformItems` instead.
     hostname: SITE_URL,
     transformItems(items) {
-      return items.filter((item) => !/(^|\/)(404|README)(\.html)?$/.test(item.url))
+      const withBase = (url: string) =>
+        url.startsWith(BASE) ? url : `${BASE}${url.replace(/^\//, '')}`
+      return items
+        .filter((item) => !/(^|\/)(404|README)(\.html)?$/.test(item.url))
+        .map((item) => ({
+          ...item,
+          url: withBase(item.url),
+          links: item.links?.map((link) => ({ ...link, url: withBase(link.url) })),
+        }))
     },
   },
   head: [
@@ -685,24 +695,6 @@ export default defineConfig({
       const description = clamp(derived || meta.defaultDescription)
       pageData.description = description
       pageData.frontmatter.description = description
-    }
-
-    // Hero action links are rendered verbatim by the default theme, so add the
-    // deploy subpath here. Two links on the home page: `/guide/introduction`
-    // and `/data-format`.
-    const hero = pageData.frontmatter.hero as
-      | { actions?: Array<{ link?: string }> }
-      | undefined
-    for (const action of hero?.actions ?? []) {
-      const link = action.link
-      if (
-        typeof link === 'string' &&
-        link.startsWith('/') &&
-        !link.startsWith('//') &&
-        !link.startsWith(BASE)
-      ) {
-        action.link = `${BASE}${link.slice(1)}`
-      }
     }
   },
   transformHead({ pageData }) {
