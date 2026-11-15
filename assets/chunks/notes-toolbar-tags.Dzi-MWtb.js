@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/notes-markdown.png",o="/KomaYomi-docs/assets/screenshots/notes-editor.png",t="/KomaYomi-docs/assets/screenshots/notes-toolbar-tags.png";export{s as _,o as a,t as b};

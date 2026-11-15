@@ -1,1 +1,0 @@
-const s="/KomaYomi-docs/assets/screenshots/compare-reading.png",o="/KomaYomi-docs/assets/screenshots/language-mask.png",a="/KomaYomi-docs/assets/screenshots/align-settings.png";export{s as _,o as a,a as b};
