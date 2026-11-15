@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/panel-toolbar.png",o="/KomaYomi-docs/assets/screenshots/annotation-tools.png",t="/KomaYomi-docs/assets/screenshots/history-panel.png";export{s as _,o as a,t as b};
