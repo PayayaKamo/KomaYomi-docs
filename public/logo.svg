@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="KomaYomi">
+  <rect width="64" height="64" rx="14" fill="#1c1f24"/>
+  <rect x="10" y="10" width="20" height="26" rx="3" fill="#f6f5f2" opacity="0.9"/>
+  <rect x="34" y="10" width="20" height="14" rx="3" fill="#f6f5f2" opacity="0.55"/>
+  <rect x="34" y="28" width="20" height="26" rx="3" fill="#f6f5f2" opacity="0.9"/>
+  <rect x="10" y="40" width="20" height="14" rx="3" fill="#f6f5f2" opacity="0.55"/>
+  <circle cx="50" cy="50" r="8" fill="#c2410c"/>
+</svg>

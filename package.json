@@ -1,0 +1,18 @@
+{
+  "name": "komayomi-docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "KomaYomi (Manga Learner) documentation site, published to GitHub Pages",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "docs:dev": "node scripts/dev.mjs",
+    "build": "vitepress build",
+    "docs:build": "vitepress build",
+    "preview": "vitepress preview --port 5174",
+    "docs:preview": "vitepress preview --port 5174"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
