@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/device-pc-landscape.webp",e="/KomaYomi-docs/assets/screenshots/device-pc-portrait.webp",o="/KomaYomi-docs/assets/screenshots/device-phone-portrait.webp",t="/KomaYomi-docs/assets/screenshots/device-tablet-portrait.webp",a="/KomaYomi-docs/assets/screenshots/device-tablet-landscape.webp";export{s as _,e as a,o as b,t as c,a as d};
