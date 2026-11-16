@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/read-only.webp",o="/KomaYomi-docs/assets/screenshots/mobile-narrow.webp",e="/KomaYomi-docs/assets/screenshots/theme-light.webp",t="/KomaYomi-docs/assets/screenshots/theme-dark.webp";export{s as _,o as a,e as b,t as c};

@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/backup-targets.webp",o="/KomaYomi-docs/assets/screenshots/backup-restore.webp",e="/KomaYomi-docs/assets/screenshots/remote-storage.webp";export{s as _,o as a,e as b};

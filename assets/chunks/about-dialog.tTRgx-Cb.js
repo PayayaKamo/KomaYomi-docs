@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/first-launch-empty.webp",o="/KomaYomi-docs/assets/screenshots/settings.webp",t="/KomaYomi-docs/assets/screenshots/about-dialog.webp";export{s as _,o as a,t as b};

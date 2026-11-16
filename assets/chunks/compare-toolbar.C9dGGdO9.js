@@ -1,1 +1,0 @@
-const s="/KomaYomi-docs/assets/screenshots/compare-reading.webp",o="/KomaYomi-docs/assets/screenshots/language-mask.webp",e="/KomaYomi-docs/assets/screenshots/align-settings.webp",a="/KomaYomi-docs/assets/screenshots/compare-toolbar.webp";export{s as _,o as a,e as b,a as c};

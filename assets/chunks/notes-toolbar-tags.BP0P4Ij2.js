@@ -1,0 +1,1 @@
+const s="/KomaYomi-docs/assets/screenshots/notes-markdown.webp",o="/KomaYomi-docs/assets/screenshots/note-anchors.webp",e="/KomaYomi-docs/assets/screenshots/notes-editor.webp",t="/KomaYomi-docs/assets/screenshots/notes-overview.webp",a="/KomaYomi-docs/assets/screenshots/notes-toolbar-tags.webp";export{s as _,o as a,e as b,t as c,a as d};

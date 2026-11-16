@@ -1,1 +1,0 @@
-const s="/KomaYomi-docs/assets/screenshots/panel-toolbar.webp",o="/KomaYomi-docs/assets/screenshots/annotation-tools.webp",t="/KomaYomi-docs/assets/screenshots/history-panel.webp";export{s as _,o as a,t as b};
